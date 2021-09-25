@@ -1,4 +1,4 @@
-export const BackgroundImage = () => {
+export const BackgroundImage = (): JSX.Element => {
     return (
         <svg height="100%" width="100%" id="svg" viewBox="0 0 1440 600" xmlns="http://www.w3.org/2000/svg" className="transition duration-300 ease-in-out delay-150">
             <defs>
@@ -17,5 +17,4 @@ export const BackgroundImage = () => {
             </path>
         </svg>
     )
-
 }
