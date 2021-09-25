@@ -9,6 +9,7 @@ import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import AccountCircle from '@mui/icons-material/AccountCircle';
 import MoreIcon from '@mui/icons-material/MoreVert';
+import Button from '@mui/material/Button';
 
 export const NavBar = () => {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
@@ -93,6 +94,7 @@ export const NavBar = () => {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" color="transparent">
         <Toolbar>
+          {/* Left Side */}
           <IconButton
             size="large"
             edge="start"
@@ -109,7 +111,10 @@ export const NavBar = () => {
             sx={{ display: { xs: 'none', sm: 'block' } }}
           >
           </Typography>
+
+          {/* Right Side */}
           <Box sx={{ flexGrow: 1 }} />
+          <Button variant="contained">Hello World</Button>
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
             <IconButton
               size="large"
@@ -123,6 +128,7 @@ export const NavBar = () => {
               <AccountCircle />
             </IconButton>
           </Box>
+
           <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
