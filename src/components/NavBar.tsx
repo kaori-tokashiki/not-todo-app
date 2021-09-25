@@ -10,6 +10,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import AccountCircle from '@mui/icons-material/AccountCircle';
 import MoreIcon from '@mui/icons-material/MoreVert';
 import Button from '@mui/material/Button';
+import { Favicon } from './Favicon'
 
 export const NavBar = () => {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
@@ -95,6 +96,7 @@ export const NavBar = () => {
       <AppBar position="static" color="transparent">
         <Toolbar>
           {/* Left Side */}
+          <Favicon />
           <IconButton
             size="large"
             edge="start"
