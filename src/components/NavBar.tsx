@@ -97,15 +97,6 @@ export const NavBar = () => {
         <Toolbar>
           {/* Left Side */}
           <Favicon />
-          <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="open drawer"
-            sx={{ mr: 2 }}
-          >
-            <MenuIcon />
-          </IconButton>
           <Typography
             variant="h6"
             noWrap
