@@ -93,7 +93,7 @@ export const NavBar = () => {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" color="transparent">
+      <AppBar position="fixed" color="inherit">
         <Toolbar>
           {/* Left Side */}
           <Favicon />
