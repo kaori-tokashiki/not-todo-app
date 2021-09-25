@@ -96,7 +96,7 @@ export const NavBar = () => {
       <AppBar position="fixed" color="inherit">
         <Toolbar>
           {/* Left Side */}
-          <Favicon />
+          <Favicon isAnimated={false} size={32} />
           <Typography
             variant="h6"
             noWrap
