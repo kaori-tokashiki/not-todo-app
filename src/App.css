@@ -1,20 +1,20 @@
 .App {
   text-align: center;
+  font-family: 'Baloo 2', cursive;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  /* height: 40vmin; */
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .nta-favicon-animation {
+    animation: nta-favicon-spin infinite 20s linear;
   }
 }
 
 
-@keyframes App-logo-spin {
+@keyframes nta-favicon-spin {
   from {
     transform: rotate(0deg);
   }

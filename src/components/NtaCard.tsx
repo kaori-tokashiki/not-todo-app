@@ -14,7 +14,7 @@ export const NtaCard = (): JSX.Element => {
           image="https://source.unsplash.com/5PVXkqt2s9k/500x500"
           alt="green iguana"
         />
-        <CardContent>
+        <CardContent style={{ backgroundColor: "white" }}>
           <Typography gutterBottom variant="h5" component="div">
             Lizard
           </Typography>

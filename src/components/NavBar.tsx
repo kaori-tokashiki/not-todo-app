@@ -93,10 +93,10 @@ export const NavBar = () => {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" color="transparent">
+      <AppBar position="fixed" color="inherit">
         <Toolbar>
           {/* Left Side */}
-          <Favicon />
+          <Favicon isAnimating={false} size={32} />
           <Typography
             variant="h6"
             noWrap
@@ -107,7 +107,7 @@ export const NavBar = () => {
 
           {/* Right Side */}
           <Box sx={{ flexGrow: 1 }} />
-          <Button>Declare ! </Button>
+          <Button id="declare">Declare ! </Button>
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
             <IconButton
               size="large"
