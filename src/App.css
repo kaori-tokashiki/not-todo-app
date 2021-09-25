@@ -8,12 +8,6 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .nta-favicon {
-    /* height: 20vmin;
-    width: 20vmin; */
-
-    /* animation: App-logo-spin infinite 10s linear; */
-  }
   .nta-favicon-animation {
     animation: App-logo-spin infinite 20s linear;
   }
