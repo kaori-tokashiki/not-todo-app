@@ -10,8 +10,8 @@ export const NtaCard = (): JSX.Element => {
       <CardActionArea>
         <CardMedia
           component="img"
-          height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
+          height="200"
+          image="https://source.unsplash.com/5PVXkqt2s9k/500x500"
           alt="green iguana"
         />
         <CardContent>
