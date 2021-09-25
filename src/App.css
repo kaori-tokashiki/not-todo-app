@@ -9,12 +9,12 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .nta-favicon-animation {
-    animation: App-logo-spin infinite 20s linear;
+    animation: nta-favicon-spin infinite 20s linear;
   }
 }
 
 
-@keyframes App-logo-spin {
+@keyframes nta-favicon-spin {
   from {
     transform: rotate(0deg);
   }
