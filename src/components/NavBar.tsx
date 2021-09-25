@@ -114,7 +114,7 @@ export const NavBar = () => {
 
           {/* Right Side */}
           <Box sx={{ flexGrow: 1 }} />
-          <Button variant="contained">Hello World</Button>
+          <Button variant="contained">Declare ! </Button>
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
             <IconButton
               size="large"
