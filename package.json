@@ -1,8 +1,8 @@
 {
   "scripts": {
     "server": "ts-node app.ts",
-    "client": "PORT=3001 yarn start --prefix client",
-    "dev": "concurrently \"yarn server\" \"yarn start\" "
+    "client": "PORT=3000 yarn --cwd client start",
+    "dev": "concurrently \"yarn server\" \"yarn client\" "
   },
   "dependencies": {
     "express": "^4.17.1",
