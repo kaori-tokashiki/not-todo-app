@@ -7,7 +7,7 @@ import { useEffect } from 'react';
 
 const axios = require('axios');
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:5000', // バックエンドB のURL:port を指定する
+  baseURL: 'http://localhost:5000',
   headers: {
     'Content-Type': 'application/json',
     'X-Requested-With': 'XMLHttpRequest'
