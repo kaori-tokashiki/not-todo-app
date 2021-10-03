@@ -1,7 +1,7 @@
 import './styles/App.css';
 import { Home } from './components/Home';
 import { NavBar } from './components/NavBar';
-import { BackgroundImage } from './components/BackgroundImage';
+import { BackgroundImage } from './components/atoms/BackgroundImage';
 import { useEffect } from 'react';
 
 
