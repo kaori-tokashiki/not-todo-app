@@ -1,39 +1,17 @@
 {
-  // "compilerOptions": {
-  //   "target": "es5",
-  //   "lib": [
-  //     "dom",
-  //     "dom.iterable",
-  //   ],
-  //   "allowJs": true,
-  //   "skipLibCheck": true,
-  //   "esModuleInterop": true,
-  //   "allowSyntheticDefaultImports": true,
-  //   "strict": true,
-  //   "forceConsistentCasingInFileNames": true,
-  //   "noFallthroughCasesInSwitch": true,
-  //   "module": "commonjs",
-  //   "moduleResolution": "node",
-  //   "resolveJsonModule": true,
-  //   "isolatedModules": true,
-  //   "noEmit": true,
-  //   "jsx": "react-jsx"
-  // },
-  // "include": [
-  //   "**/*.ts", "**/*.tsx", "./**.ts"
-  // ],
-  // "exclude": [
-  //   "node_modules"
-  // ]
-  "extends": "./tsconfig.json",
   "compilerOptions": {
+    "baseUrl": "./",
     "module": "commonjs",
     "outDir": "dist",
-    "target": "es2017",
+    "target": "es2018",
     "isolatedModules": false,
-    "noEmit": false
+    "noEmit": false,
+    "esModuleInterop": true
   },
   "include": [
-    "**/*.ts", "**/*.tsx", "./**.ts"
+    "./app.ts"
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }
