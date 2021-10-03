@@ -5,8 +5,8 @@ import { BackgroundImage } from './components/BackgroundImage';
 import { useEffect } from 'react';
 
 
-const axiosBase = require('axios');
-const axiosInstance = axiosBase.create({
+const axios = require('axios');
+const axiosInstance = axios.create({
   baseURL: 'http://localhost:5000', // バックエンドB のURL:port を指定する
   headers: {
     'Content-Type': 'application/json',
