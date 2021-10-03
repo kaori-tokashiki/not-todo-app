@@ -3,10 +3,6 @@
   font-family: 'Baloo 2', cursive;
 }
 
-.App-logo {
-  /* height: 40vmin; */
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .nta-favicon-animation {
     animation: nta-favicon-spin infinite 20s linear;

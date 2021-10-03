@@ -1,13 +1,13 @@
-import './App.css';
+import './styles/App.css';
 import { Home } from './components/Home';
 import { NavBar } from './components/NavBar';
-import { BackgroundImage } from './components/BackgroundImage';
+import { BackgroundImage } from './components/atoms/BackgroundImage';
 import { useEffect } from 'react';
 
 
 const axios = require('axios');
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:5000', // バックエンドB のURL:port を指定する
+  baseURL: 'http://localhost:5000',
   headers: {
     'Content-Type': 'application/json',
     'X-Requested-With': 'XMLHttpRequest'
