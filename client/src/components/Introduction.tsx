@@ -1,5 +1,5 @@
 import Box from '@mui/material/Box';
-import { Favicon } from '../components/Favicon'
+import { Favicon } from './Favicon'
 
 export const Introduction = (): JSX.Element => {
     return(
