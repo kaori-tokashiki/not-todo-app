@@ -21,6 +21,9 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "client/src"
+    "**/*.ts", "**/*.tsx", "./**.ts",
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }
