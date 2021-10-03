@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  font-family: 'Baloo 2', cursive;
+}
+
+.App-logo {
+  /* height: 40vmin; */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .nta-favicon-animation {
+    animation: nta-favicon-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes nta-favicon-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
