@@ -2,7 +2,8 @@
   "scripts": {
     "server": "ts-node app.ts",
     "client": "PORT=3000 yarn --cwd client start",
-    "dev": "concurrently \"yarn server\" \"yarn client\" "
+    "dev": "concurrently \"yarn server\" \"yarn client\" ",
+    "mongo": "mongod --dbpath mongoDB-tmp/data --logpath mongoDB-tmp/mongodb.log --logappend"
   },
   "dependencies": {
     "axios": "^0.22.0",
