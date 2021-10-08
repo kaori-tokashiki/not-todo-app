@@ -9,5 +9,4 @@ const userSchema = new Schema<UserDocument, UserModel>({
     updatedAt: { type: Date },
 });
 
-
 export default mongoose.model('User', userSchema);
