@@ -1,21 +1,20 @@
 import { Model, Document } from 'mongoose';
 
-export interface IPasswordResetOrder {
-    token: string,
+export interface IUser {
+    username: string,
     email: string,
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    relatedUser: any,
-    isRevoked: boolean,
+    password: any,
+    image: string,
     createdAt: Date,
-    expiredAt: Date,
+    updatedAt: Date,
 }
 
-export interface PasswordResetOrderDocument extends IPasswordResetOrder, Document {
-    isExpired(): Promise<boolean>
-    revokeOneTimeToken(): Promise<void>
+export interface UserDocument extends IUser, Document {
+    // isExpired(): Promise<boolean>
+    // revokeOneTimeToken(): Promise<void>
 }
   
-export interface PasswordResetOrderModel extends Model<PasswordResetOrderDocument> {
-    generateOneTimeToken(): string
-    createPasswordResetOrder(email: string): PasswordResetOrderDocument
+export interface UserModel extends Model<UserDocument> {
+    // generateOneTimeToken(): string
+    // createPasswordResetOrder(email: string): UserDocument
 }
